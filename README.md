@@ -1,6 +1,6 @@
 Handig voor het SE:
 - https://blackbox.ai (AI is beter dan chatGPT maar slechter dan claud.ai)
-- https://www.blackbox.ai/screenshot (Foto --> Code | Je maakt een foto van je SE website en deze website maakt er een website pagina van **let wel op: hij zet alles in html bestand, vergeet niet de css eruit te halen en in een .css bestand te zetten)
+- https://www.blackbox.ai/screenshot (Foto --> Code | Je maakt een foto van je SE website en deze website maakt er een website pagina van **let wel op: hij zet alles in html bestand, vergeet niet de css eruit te halen en in een .css bestand te zetten**)
 - https://chatgpt.com
 - https://claud.ai (vooraf inloggen met telefoon nummer | beter dan chatGPT en blackbox.ai samen)
 

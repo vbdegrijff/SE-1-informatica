@@ -1,262 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Valentijn is a passionate Web Developer specializing in full stack development. Creating scalable, efficient web applications, always eager for new challenges and growth opportunities.">
-    <link rel="icon" href="../images/icon.png" type="image/png">
-    <title>Valentijn | Samenvatting</title>
-    <link href='style.css' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>ZKV</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../jsgame/index.html">JavaScript Game</a></li>
-            <li><a href="../htmlcss/index.html">HTML & CSS</a></li>
-            <li><a href="../samenvatting/index.html">Samenvatting</a></li>
-        </ul>
-    </nav>
-    <section class="home">
-        <div id="home" class="container">
-            <div class="text-content">
-                <p class="intro"><span class="textgradient">Informatica gaat net zo min over computers als<br> astronomie over telescopen.</span></p>
-                <p class="description2">Edsger W. Dijkstra</p>
+    <div id="kader">
+        <div class="tekstBijFoto">
+            <div id="plaatje">
+                <img src="alsnijders.jpg" alt="A.L. Snijders">
             </div>
-        </div>
-    </section>
-
-    <section id="hoofdstuk1">
-        <div class="container">
             <div class="text-content">
-                <p class="intro">Hoofdstuk 1: Informatiesystemen</p>
-                <p class="description">
-                    Informatiesystemen variëren van kleine systemen zoals mobiele telefoons tot grotere systemen met krachtige computers en microprocessors. Een goed voorbeeld hiervan is de pinautomaat, die verbinding maakt met een centrale computer om je saldo te controleren voordat je geld kunt opnemen. Deze systemen verwerken informatie door invoer, verwerking en uitvoer. Cloud computing, zoals bij Zoho en Google Drive, maakt het mogelijk om gegevens online te verwerken, wat de afstand vergroot tussen de gebruiker en de verwerking van informatie.<br><br>
-    
-                    <strong>Wat is informatie?</strong><br>
-                    Informatie ontstaat wanneer gegevens een structuur en betekenis krijgen. Bijvoorbeeld, namen zonder context zijn slechts gegevens, maar wanneer ze worden gerangschikt in een gezinstructuur, krijgen ze betekenis. Dit laat zien dat verwerking van gegevens tot informatie leidt, die van belang is voor bedrijven. Door boekhouding in software te verwerken, kan een bedrijf snel inzicht krijgen in winst, kosten en andere financiële informatie.<br><br>
-    
-                    Informatica richt zich op het verwerken van informatie, terwijl informatiekunde zich bezighoudt met het gebruik van computers voor specifieke taken. De volgende opdrachten helpen om de verschillen te verkennen en voorbeelden van systemen en toepassingen te identificeren.
+                <p id="tekst">
+                    A.L. Snijders (Amsterdam, 24 september 1937), pseudoniem van Peter Cornelis Müller, is een Nederlands schrijver die in Klein Dochteren woont.<br>
+                    Snijders maakte furore als schrijver van columns (onder andere bij Het Parool) en staat nu bekend als een van de grootste schrijvers van het zeer korte verhaal, kortweg zkv genoemd.
+                </p>
+                <p>
+                    Foto: Roelof de Vries (bron Wikimedia)
                 </p>
             </div>
         </div>
-    </section>
-
-    <section id="hoofdstuk2">
-        <div class="container">
-            <div class="text-content">
-                <p class="intro">Hoofdstuk 2.1: Binaire Getallen</p>
-
-                <p class="description">
-                    Binaire getallen zijn de teleenheden van een computer, hoe wij getallen van 1-10 kennen snapt een computer dat niet. Een computer werkt met binaire cijfers, dit betekent dat ze niet met 10 cijfers werken maar met 2 namelijk 0 of 1.<br><br>
-                    Binaire getallen opschrijven kan verwarrend zijn omdat het decimale getal (1-10 zoals wij het kennen) niet overeenkomt met het binaire getal. Neem bv. 4, 4 in binaire cijfers is 100. Daarom schrijf je de binaire cijfers zo: 100₍₂₎.<br><br>
-                    In de tabel hiernaast kun je zien hoe de decimale getallen omgerekent kunnen worden naar nullen en enen, voor de duidelijkheid: als een getal oneven is doe je altijd eerst min 1 (bij het decimale cijfer), schrijf je een 1 op voor decimaal en deel je vervolgens door 2, je blijft net zo lang doorgaan totdat er 0 uitkomst, de uitkomst (de nullen en enen schrijf je op van het einde tot het begin van je berekening zie tabel hiervoor)<br><br>
-                    Voor binair naar decimaal werkt het net even anders, je schrijf als eerst alle machten van twee op (tot en met 10) dus bij het binaire getal 101 is het bijvoorbeeld: 2^0 = 1 / 2^1 = 2 / 2^2 = 4, nu tel je de eerste en laatste bij elkaar op, de middelste gaf namelijk een nul wat betekent dat die niet mee telt. de uitkomst van 101 omrekenen naar decimalen is daarom 5.
-                </p>
-            </div>
-                <table>
-                    <caption>Decimaal naar binair</caption>
-                    <thead>
-                        <tr>
-                            <th>Stap</th>
-                            <th>Decimaal getal</th>
-                            <th>Delen door 2</th>
-                            <th></th>
-                            <th>Uitkomst</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1.</td>
-                            <td>19</td>
-                            <td>19 ÷ 2</td>
-                            <td>9</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td>9</td>
-                            <td>9 ÷ 2</td>
-                            <td>4</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td>4</td>
-                            <td>4 ÷ 2</td>
-                            <td>2</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>4.</td>
-                            <td>2</td>
-                            <td>2 ÷ 2</td>
-                            <td>1</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>5.</td>
-                            <td>1</td>
-                            <td>1 ÷ 2</td>
-                            <td>0</td>
-                            <td>1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <section id="hoofdstuk2.2">
-            <div class="container">
-                <div class="text-content">
-                    <p class="intro">Hoofdstuk 2.2: Hexadecimale Getallen</p>
-                    <p class="description">
-                        Hexadecimale getallen zijn een manier om binaire getallen te vereenvoudigen. Ze gebruiken 16 symbolen: 0-9 voor de waarden 0-9 en A-F voor de waarden 10-15 (16 in hexadecimaal = 10 in decimaal). Hieronder zie je hoe je van decimaal en binair naar hexadecimaal kunt omrekenen.<br><br>
-                        Hexadecimale getallen zijn een belangrijke representatie in de informatica en worden vaak gebruikt om binaire gegevens te vereenvoudigen. Omdat een hexadecimaal getal 16 waarden kan vertegenwoordigen, is het mogelijk om elke vier binaire cijfers (bits) samen te voegen in één hexadecimaal cijfer. Bijvoorbeeld: De binaire waarde <code>1111</code> komt overeen met de hexadecimale waarde <code>F</code>, en de binaire waarde <code>1010</code> komt overeen met <code>A</code>.<br><br>
-                        Om een decimaal getal naar hexadecimaal om te rekenen, deel je het getal door 16 en noteer je de rest. Deze rest geeft je het hexadecimale cijfer. Dit proces wordt herhaald met het quotiënt totdat het quotiënt 0 is. Bijvoorbeeld: Bij de conversie van 255 naar hexadecimaal: <br>
-                        <code>255 ÷ 16 = 15, rest 15 (F)<br>
-                        15 ÷ 16 = 0, rest 15 (F)</code><br>
-                        Dus, 255 in hexadecimaal is <code>FF</code>.<br><br>
-                        Hexadecimale waarden worden vaak gebruikt in webdesign om kleuren te specificeren, zoals <code>#FFFFFF</code> voor wit. In computerarchitectuur worden geheugenadressen weergegeven in hexadecimale notatie voor leesbaarheid. Veel programmeertalen maken gebruik van hexadecimale waarden om gegevens compact weer te geven.<br><br>
-                    </p>
-                </div>
-                <table>
-                    <caption>Decimaal naar Hexadecimaal</caption>
-                    <thead>
-                        <tr>
-                            <th>Stap</th>
-                            <th>Decimaal Getal</th>
-                            <th>Delen door 16</th>
-                            <th></th>
-                            <th>Uitkomst</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1.</td>
-                            <td>255</td>
-                            <td>255 ÷ 16</td>
-                            <td>15</td>
-                            <td>F</td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td>128</td>
-                            <td>128 ÷ 16</td>
-                            <td>8</td>
-                            <td>80</td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td>64</td>
-                            <td>64 ÷ 16</td>
-                            <td>4</td>
-                            <td>40</td>
-                        </tr>
-                        <tr>
-                            <td>4.</td>
-                            <td>16</td>
-                            <td>16 ÷ 16</td>
-                            <td>1</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>5.</td>
-                            <td>10</td>
-                            <td>10 ÷ 16</td>
-                            <td>0</td>
-                            <td>A</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <section id="hoofdstuk3">
-            <div class="container">
-                <div class="text-content">
-                    <p class="intro">Hoofdstuk 3: Hardware en Interne Componenten</p>
-                    <p class="description">
-                        Dit hoofdstuk gaat over hardware, de fysieke onderdelen van een computer, zoals het moederbord, de processor en het geheugen. Hardware maakt software bruikbaar en omvat zowel interne componenten (binnen de computerkast) als randapparatuur (externe apparaten).<br><br>
-                        
-                        <strong>Interne Hardware:</strong><br>
-                        Omvat alle onderdelen in de computerkast zoals het moederbord, de voeding, en de processor. Het moederbord verbindt alles via de chipset (northbridge en southbridge) en bussen.<br><br>
-                        
-                        <strong>Het Moederbord:</strong><br>
-                        Dit verbindt de onderdelen en zorgt voor communicatie. De northbridge regelt snelle communicatie, terwijl de southbridge langzamere componenten zoals harde schijven beheert. Moderne processoren integreren veel functies van de northbridge.<br><br>
-                        
-                        <strong>De Processor:</strong><br>
-                        De CPU voert berekeningen uit en bepaalt grotendeels de snelheid van de computer. Moderne CPU's hebben meerdere kernen (bijv. dual-core, quad-core) voor snellere verwerking.<br><br>
-                        
-                        <strong>Intern Geheugen:</strong><br>
-                        Bestaat uit RAM (werkgeheugen), ROM (systeemgeheugen) en cachegeheugen. RAM biedt snelle toegang tot gegevens en is uitbreidbaar met modules. Cachegeheugen is nog sneller, maar duurder, en wordt gebruikt voor veelgebruikte instructies.<br><br>
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <section id="hoofdstuk4">
-            <div class="container">
-                <div class="text-content">
-                    <p class="intro">Hoofdstuk 4: Netwerken</p>
-                    <p class="description">
-                        Dit hoofdstuk behandelt netwerken, systemen die computers verbinden om gegevens te delen. Netwerken variëren van lokale netwerken (LAN) tot grote netwerken zoals het internet.<br><br>
-                        
-                        <strong>Soorten Netwerken:</strong><br>
-                        LAN's zijn geschikt voor scholen en kantoren, WAN's verbinden locaties over grote afstanden, en Wi-Fi wordt vaak thuis gebruikt.<br><br>
-                        
-                        <strong>Verbindingen:</strong><br>
-                        Computers verbinden via UTP-kabels, glasvezel of Wi-Fi. Glasvezel biedt hoge snelheden, UTP en Wi-Fi zijn gebruikelijk thuis en op kantoor.<br><br>
-                        
-                        <strong>Apparatuur:</strong><br>
-                        Routers en switches beheren en sturen dataverkeer, essentieel voor efficiënt netwerkbeheer.
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <section id="hoofdstuk5">
-            <div class="container">
-                <div class="text-content">
-                    <p class="intro">Hoofdstuk 5: Communicatie</p>
-                    <p class="description">
-                        Dit hoofdstuk behandelt communicatiemiddelen en netwerken. Communicatie kan plaatsvinden via geluid, tekst of beeld. Bijvoorbeeld, telefoneren is enkel geluid, terwijl Skype beeld en geluid combineert.<br><br>
-                        
-                        <strong>Communicatiemiddelen:</strong><br>
-                        Effectieve communicatie vereist afspraken, zoals beleefdheid. Bij simplexcommunicatie, zoals radio, zijn regels minder belangrijk dan bij duplexcommunicatie (bijvoorbeeld telefonie).<br><br>
-                        
-                        <strong>Communicatieprotocol:</strong><br>
-                        Netwerkcommunicatie vereist protocollen, zoals IP en TCP. Deze protocollen zorgen voor betrouwbare gegevensoverdracht en zijn opgebouwd uit verschillende lagen, zoals de toepassingslaag en transportlaag.<br><br>
-                        
-                        <strong>Adressering:</strong><br>
-                        Elk apparaat op het internet heeft een uniek IP-adres. Deze adressen zijn noodzakelijk voor de gegevensoverdracht, en DHCP-servers wijzen interne adressen toe binnen netwerken.<br><br>
-                        
-                        <strong>Internet:</strong><br>
-                        Het internet is een wereldwijd netwerk van computers. Het World Wide Web (WWW) bestaat uit miljoenen webpagina's en websites. User-generated content, zoals op platforms als YouTube, speelt een cruciale rol in moderne communicatie.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="hoofdstuk6">
-            <div class="container">
-                <div class="text-content">
-                    <p class="intro">Hoofdstuk 6: Besturingssystemen</p>
-                    <p class="description">
-                        Elke moderne computer maakt gebruik van een besturingssysteem (OS), dat de interface voor gebruikers bepaalt en de hardware beheert. Dit systeem wordt tijdens het opstarten in het geheugen geladen en kan vanaf verschillende opslagmedia, zoals harde schijven, cd's of netwerken, worden opgestart. Besturingssystemen kunnen zelfs vanaf een diskette opgestart worden.<br><br>
-                        
-                        <strong>Belangrijke taken van een besturingssysteem:</strong><br>
-                        1. <b>Toegang tot systeembronnen:</b> Verdeling van geheugen, opslag en randapparatuur tussen actieve programma's.<br>
-                        2. <b>Systeemopstart:</b> Laden van alle benodigde bestanden tijdens het opstarten.<br>
-                        3. <b>Geheugenbeheer:</b> Beheer van intern geheugen voor zowel het OS als de gebruikersprogramma's.<br>
-                        4. <b>Bestandsbeheer:</b> Toegang en rechten tot bestanden op opslagmedia regelen.<br>
-                        5. <b>Programma-uitvoering:</b> Programma's naar het interne geheugen schrijven voor uitvoering door de processor.<br>
-                        6. <b>Communicatie met randapparatuur:</b> Correcte verwerking van invoer- en uitvoerapparaten zoals toetsenborden en monitors.<br><br>
-                        
-                        Het OS biedt meestal een grafische interface die interactie met de computer vergemakkelijkt, en ondersteunt applicaties via een Application Programming Interface (API).
-                    </p>
-                </div>
-            </div>
-        </section>
+        <div class="text-content2">
+            <h1 class="bad"><i>Bad</i></h1>
+            <p>
+                Ik was uitgenodigd om iets voor te lezen in een villa op Scheveningen. Daaraan voorafgaand mocht ik eten en slapen in het Hilton hotel. Het eten was heerlijk, hoewel ik later van andere schrijvers hoorde dat het heel slecht was. Ze legden uit waarom, maar ik bleef met terugwerkende kracht tevreden. Confrontaties en misverstanden.<br>
+                Na het eten kwam de kamer. Ik logeer tegenwoordig wel eens vaker in een hotel, maar deze keer was de luxe opvallend, vooral de badkamer maakte me nederig, nooit heb ik voor een grotere spiegel gestaan. Ik douche me in het dagelijks leven elke ochtend, kort, twee à drie minuten, dat is genoeg, mijn kop wordt nat en de rest ook. Bovendien is het goed voor het milieu en mijn portemonnee. Voor elke diepliggende beslissing is een oppervlakkig excuus.<br>
+                In het Hilton nam ik een belangrijk besluit, ik zou een bad nemen, voor het eerst in zeventig jaar. Het duurde lang voordat er genoeg water in zat, maar wat me vooral trof was dat mijn hoofd droog bleef – dat vind ik een nadeel van het bad. Het hoofd heeft een douche nodig, het lichaam een bad.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
